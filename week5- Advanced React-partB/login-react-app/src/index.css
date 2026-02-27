@@ -1,0 +1,100 @@
+/* Reset default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8FAFC;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login card container */
+.login-container {
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.login-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #0F172A;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    color: #64748B;
+    margin-bottom: 24px;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields */
+input {
+    height: 44px;
+    padding: 0 12px;
+    margin-bottom: 16px;
+
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    height: 44px;
+    background-color: #2563EB;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #1D4ED8;
+}
+
+/* Forgot password */
+.forgot {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 13px;
+    color: #2563EB;
+    text-decoration: none;
+}
+
+/* Error */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* App Container*/
+.app-container {
+  min-height: 100vh;
+}
